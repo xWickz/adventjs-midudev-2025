@@ -1,6 +1,6 @@
-Revisión de código: 5/5
+# Revisión de código: 5/5
 
-Puntos fuertes:
+## Puntos fuertes:
 - La solución es muy clara, concisa y fácil de entender.
 - El uso de una función anidada `parseTime` encapsula la lógica de parsing de manera efectiva, mejorando la legibilidad y la modularidad del código.
 - La conversión a UTC (`Date.UTC`) y el manejo de los meses (0-indexados) son correctos.
