@@ -1,11 +1,11 @@
 Santa 🎅 quiere saber cuál es la primera letra no repetida en el nombre de un juguete 🎁.
 
-Escribe una función que reciba un string y devuelva la primera letra que no se repite, ignorando mayúsculas y minúsculas al contar, pero devolviendo la letra tal como aparece en el string.
+Escribe una función que reciba un `string` y devuelva la primera letra que no se repite, ignorando mayúsculas y minúsculas al contar, pero devolviendo la letra tal como aparece en el string.
 
 Si no hay ninguna, devuelve una cadena vacía ("").
 
 Ejemplos:
-
+```js
 findUniqueToy('Gift') // 'G'
 // ℹ️ La G es la primera letra que no se repite
 // y la devolvemos tal y como aparece
@@ -23,3 +23,4 @@ findUniqueToy('abcDEF') // 'a'
 findUniqueToy('aAaAaAF') // 'F'
 findUniqueToy('sTreSS') // 'T'
 findUniqueToy('z') // 'z'
+```

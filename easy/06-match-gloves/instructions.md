@@ -1,12 +1,14 @@
-En el taller de Santa, los elfos han encontrado una montaña de guantes mágicos totalmente desordenados. Cada guante viene descrito por dos valores:
+En el taller de Santa, los elfos han encontrado **una montaña de guantes mágicos** totalmente desordenados. Cada guante viene descrito por dos valores:
 
-hand: indica si es un guante izquierdo (L) o derecho (R)
-color: el color del guante (string)
-Tu tarea es ayudarles a emparejar guantes: Un par válido es un guante izquierdo y uno derecho del mismo color.
+- `hand`: indica si es un guante izquierdo (`L`) o derecho (`R`)
+- `color`: el color del guante (string)
 
-Debes devolver una lista con los colores de todos los pares encontrados. Ten en cuenta que puede haber varios pares del mismo color. El orden se determina por el que se pueda hacer primero el par.
+Tu tarea es ayudarles a **emparejar guantes**: Un par válido es un guante izquierdo y uno derecho **del mismo color**.
 
-🧩 Ejemplos
+Debes devolver **una lista con los colores de todos los pares encontrados**. Ten en cuenta que **puede haber varios pares del mismo color**. El orden se determina por el que se pueda hacer primero el par.
+
+**🧩 Ejemplos**
+```js
 const gloves = [
   { hand: 'L', color: 'red' },
   { hand: 'R', color: 'red' },
@@ -47,3 +49,4 @@ const gloves4 = [
 
 matchGloves(gloves4)
 // ['red', 'green']
+```

@@ -5,7 +5,6 @@
  */
 
 function drawTree(height, ornament, frequency) {
-  // Code here
 
   const maxWidth = 2 * height - 1
   let pos = 1
@@ -21,7 +20,6 @@ function drawTree(height, ornament, frequency) {
       } else {
         rowChars += '*'
       }
-
       pos++
     }
 

@@ -3,6 +3,7 @@ Santa ha recibido una lista de regalos, pero algunos están defectuosos. Un rega
 Ayuda a Santa escribiendo una función que reciba una lista de nombres de regalos y devuelva una nueva lista que solo contenga los regalos sin defectos.
 
 Ejemplos
+```javascript
 const gifts1 = ['car', 'doll#arm', 'ball', '#train']
 const good1 = filterGifts(gifts1)
 console.log(good1)
@@ -16,4 +17,4 @@ console.log(good2)
 const gifts3 = []
 const good3 = filterGifts(gifts3)
 console.log(good3)
-// []
+// []```
