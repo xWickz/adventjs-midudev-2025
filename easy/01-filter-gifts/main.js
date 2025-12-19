@@ -1,3 +1,3 @@
-function filterGifts(gifts) {
+export function filterGifts(gifts) {
   return gifts.filter((gift) => !gift.includes('#'))
 }
